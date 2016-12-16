@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--startColor:渐变的起始颜色-->
+    <!--centerColor:渐变的中间颜色-->
+    <!--endColor:渐变的结束颜色-->
+    <!--type:渐变类型,可选(linear,radial,sweep), 线性渐变(可设置渐变角度),发散渐变(中间向四周发散),平铺渐变-->
+    <!--centerX:渐变中间亚瑟的x坐标,取值范围为:0~1-->
+    <!--centerY:渐变中间颜色的Y坐标,取值范围为:0~1-->
+    <!--angle:只有linear类型的渐变才有效,表示渐变角度,必须为45的倍数哦-->
+    <!--gradientRadius:只有radial和sweep类型的渐变才有效,radial必须设置,表示渐变效果的半径-->
+    <!--useLevel:判断是否根据level绘制渐变效果-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <size
+        android:width="@dimen/common_dp_14"
+        android:height="@dimen/common_dp_4" />
+
+    <gradient
+        android:startColor="@android:color/holo_red_light"
+        android:centerColor="@android:color/holo_blue_light"
+        android:endColor="@android:color/holo_green_light"
+        android:centerX="0.1"
+        android:centerY="0.7"
+       android:type="linear"/>
+
+</shape>

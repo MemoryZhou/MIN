@@ -1,0 +1,6 @@
+<!--rotation.xml 将目标旋转360度-->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="6000"
+    android:propertyName="rotation"
+    android:valueFrom="0"
+    android:valueTo="360" />

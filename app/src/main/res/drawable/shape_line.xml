@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--shape 为line时 width 指线的高度-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line"
+    android:visible="true">
+
+    <stroke
+        android:width="@dimen/common_dp_1"
+        android:color="@color/colorPrimaryDark"
+        android:dashGap="@dimen/common_dp_4"
+        android:dashWidth="@dimen/common_dp_4" />
+
+</shape>
