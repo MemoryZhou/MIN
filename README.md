@@ -1,1 +1,2 @@
 # MIN
+all by myself
