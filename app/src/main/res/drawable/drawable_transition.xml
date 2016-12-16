@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--根节点为<transition>，记住只有两个Item，多了也没用，-->
+    <!--需要调用startTransition方法才能启动两层间的切换动画；
+    也可以调用reverseTransition()方法反过来播放：-->
+<transition xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@mipmap/android1"/>
+    <item android:drawable="@mipmap/android3"/>
+</transition>
+

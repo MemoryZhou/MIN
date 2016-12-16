@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+    <!--clipOrietntion:设置剪切的方向,可以设置水平和竖直2个方向-->
+    <!--gravity:从那个位置开始裁剪-->
+    <!--核心：通过代码修改ClipDrawable的level的值！Level的值是0~10000！-->
+
 <clip xmlns:android="http://schemas.android.com/apk/res/android"
     android:clipOrientation="horizontal"
     android:drawable="@drawable/guide"
